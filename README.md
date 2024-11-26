@@ -2,6 +2,7 @@
 
 ## News
 
+- **2024.11.26** [**arXiv**](https://arxiv.org/pdf/2411.16072v1) preprint released
 - **2024.11.25** Repo initialized
 
 ## Introduction
