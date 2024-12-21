@@ -23,15 +23,15 @@ Framework of our semantic transitive labeling pipeline for generating dense and 
 ## Getting Started
 step 1. Please refer to [dataset](./docs/dataset.md) to prepare the nuScenes-Occ3d dataset.
 
-step 2. Please refer to [LVLM](./1-LVLM/LVLM.md) to perform vocabulary extraction with LVLM.
+step 2. Please refer to [LVLM](./1-LVLM/readme.md) to perform vocabulary extraction with LVLM.
 
-step 3. Please refer to [OVSeg](./2-OVSeg/OVSeg.md) to establish pixel-to-text association.
+step 3. Please refer to [OVSeg](./2-OVSeg/readme.md) to establish pixel-to-text association.
 
-step 4. Please refer to [GroundTruthGeneration](./3-GroundTruthGeneration/GroundTruthGeneration.md) to generate dense and fine-grained pseudo-labeled 3D language occupancy ground truth.
+step 4. Please refer to [GroundTruthGeneration](./3-GroundTruthGeneration/readme.md) to generate dense and fine-grained pseudo-labeled 3D language occupancy ground truth.
 
-step 5. Please refer to [Autoencoder](./4-Autoencoder/Autoencoder.md) to map the language features into a low-dimensional latent space.
+step 5. Please refer to [Autoencoder](./4-Autoencoder/readme.md) to map the language features into a low-dimensional latent space.
 
-step 6. Please refer to [OVO](./5-OVO/OVO.md) for open vocabulary occupancy prediction with BEVDet and BEVFormer.
+step 6. Please refer to [OVO](./5-OVO/readme.md) for open vocabulary occupancy prediction with BEVDet and BEVFormer.
 ## Acknowledgement
 
 Many thanks to these exceptional open source projects:

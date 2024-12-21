@@ -1,2 +1,0 @@
-## Guideline
-We experimentally tried three open-vocabulary segmentation models: [CAT-Seg](./CAT-Seg/CAT-Seg.md), [ODISE](./ODISE/ODISE.md), and [SAN](./SAN/SAN.md). Please refer to each folder for detailed guidelines.
