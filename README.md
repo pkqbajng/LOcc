@@ -2,6 +2,7 @@
 
 ## News
 
+- **2024.12.21** Code released
 - **2024.11.26** [**arXiv**](https://arxiv.org/pdf/2411.16072v1) preprint released
 - **2024.11.25** Repo initialized
 
@@ -19,6 +20,18 @@ Framework of our semantic transitive labeling pipeline for generating dense and 
 
 ![quantitative](./docs/Fig_quantitative.png)
 
+## Getting Started
+step 1. Please refer to [dataset](./docs/dataset.md) to prepare the nuScenes-Occ3d dataset.
+
+step 2. Please refer to [LVLM](./1-LVLM/LVLM.md) to perform vocabulary extraction with LVLM.
+
+step 3. Please refer to [OVSeg](./2-OVSeg/OVSeg.md) to establish pixel-to-text association.
+
+step 4. Please refer to [GroundTruthGeneration](./3-GroundTruthGeneration/GroundTruthGeneration.md) to generate dense and fine-grained pseudo-labeled 3D language occupancy ground truth.
+
+step 5. Please refer to [Autoencoder](./4-Autoencoder/Autoencoder.md) to map the language features into a low-dimensional latent space.
+
+step 6. Please refer to [OVO](./5-OVO/OVO.md) for open vocabulary occupancy prediction with BEVDet and BEVFormer.
 ## Acknowledgement
 
 Many thanks to these exceptional open source projects:
@@ -28,10 +41,19 @@ Many thanks to these exceptional open source projects:
 - [BEVDet](https://github.com/HuangJunJie2017/BEVDet)
 - [SurroundOcc](https://github.com/weiyithu/SurroundOcc)
 
-
+## Bibtex
+If you find our work beneficial for your research, please consider citing our paper and give us a star:
+```shell
+@article{LOcc,
+  title={Language Driven Occupancy Prediction},
+  author={Yu, Zhu and Pang, Bowen and Liu, Lizhe and Zhang, Runmin and Peng, Qihao and Luo, Maochun and Yang, Sheng and Chen, Mingxia and Cao, Si-Yuan and Shen, Hui-Liang},
+  journal={arXiv preprint arXiv:2411.16072},
+  year={2024}
+}
+```
+If you encounter any issues, please contact zhu.yu.pk@gmail.com.
 
 ## To Do
 
 - Getting started
 - Model zoo
-- Bibtex

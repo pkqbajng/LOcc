@@ -1,0 +1,17 @@
+open3d==0.14.1
+spconv-cu113
+networkx==2.2
+numba==0.53.0
+numpy==1.23.5
+nuscenes-devkit
+plyfile
+scikit-image
+protobuf==3.9.2
+fvcore
+torch_efficient_distloss
+lyft_dataset_sdk
+trimesh==2.35.39
+pytorch-lightning==1.7.0
+torchmetrics==0.7.0
+setuptools==59.5.0
+yapf==0.40.0

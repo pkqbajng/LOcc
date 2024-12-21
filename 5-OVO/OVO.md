@@ -1,0 +1,2 @@
+## Guideline
+We experimentally evaluated the generated ground truth data on BEVDet, BEVDet4D, and BEVFormer. Please refer to [BEVDetOcc](./BEVDetOcc/BEVDetOcc.md) for the first two models, and [BEVFormer](./BEVFormerOcc/BEVFormerOcc.md) for BEVFormer.

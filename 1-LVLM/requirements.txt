@@ -1,0 +1,16 @@
+transformers==4.37.2
+accelerate
+tiktoken
+einops
+transformers_stream_generator==0.0.4
+scipy
+torchvision
+pillow
+tensorboard
+matplotlib
+numpy==1.26.3
+nuscenes-devkit
+auto-gptq
+optimum
+transformers_stream_generator
+webcolors
