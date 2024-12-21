@@ -81,7 +81,7 @@ data
 
 ## Training
 
-Please download the pretrained [ckpts]() and put them under the folder ckpts.
+Please download the pretrained [ckpts](https://github.com/pkqbajng/LOcc/releases/download/v1.0/ckpts.zip) and put them under the folder ckpts.
 
 ```shell
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python main.py --config_path configs/bevdet4d/bevdet4d-ovo-r50-san-qwen-704x256.py --log_folder bevdet4d/bevdet4d-ovo-r50-san-qwen-704x256 --seed 7240 --log_every_n_steps 100
