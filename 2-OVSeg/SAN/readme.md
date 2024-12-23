@@ -39,7 +39,7 @@ Please use the following script to generate segmentation results
 # scene
 python main.py --data_root data/occ3d --output_root data/occ3d/san_qwen_scene --vocab_root data/occ3d/qwen_texts
 # single-frame vocabulary
-python main.py --data_root data/occ3d --output_root data/occ3d/san_qwen_frame --vocab_root data/occ3d/qwen_texts
+python main_frame.py --data_root data/occ3d --output_root data/occ3d/san_qwen_frame --vocab_root data/occ3d/qwen_texts
 # save feat
 python main_feat.py --data_root data/occ3d --output_root data/occ3d/san_feats --vocab_root data/occ3d/qwen_texts
 ```
